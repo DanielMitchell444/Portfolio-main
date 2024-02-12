@@ -790,3 +790,11 @@ body{
     text-align: left;
 }
  }
+
+ @media screen and (-webkit-min-device-pixel-ratio:0) { 
+    /* Safari and Chrome, if Chrome rule needed */
+    .imagess{
+        width: 100%;
+        object-fit: cover;
+    }
+ }
