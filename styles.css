@@ -541,31 +541,115 @@ body{
     .project-container p{
         text-align: center;
     }
+
+    #bars{
+        display: none;
+    }
 }
 
 @media(max-width: 1300px){
-    .project-container{
+    .about_content{
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
+        gap: 5rem;
+     }
+     .main-container{
+        margin: auto;
+        max-width: 100rem;
+        width: 80%;
+     }
+    
+    .toggle-menu{
+        display: none;
     }
-
-    .imagess{
+    
+     #bars{
+        display: none;
+     }
+    
+     .nav-links{
+        display: flex;
+     }
+    
+     li{
+        list-style-type: none;
+     }
+    
+     a{
+        text-decoration: none;
+     }
+    
+     .navigation-links{
+      display: inline-block;
+      font-size: 1rem;
+      color: #333;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: 700;
+      gap: 50px;
+      padding: 0.5rem 0.5rem;
+      transition: color .3s;
+     }
+    
+     .imagess{
         width: 100%;
-    }
-
-    .project-content{
+        height: 30%;
+        object-fit: cover;
+     }
+    
+     .project-row{
+        display: grid;
+      grid-template-columns: 1.5fr 1fr;
+      grid-gap: 5rem;
+      margin-bottom: 11rem;
+     }
+    
+     .project-container{
+            display: grid;
+      grid-template-columns: 1.5fr 1fr;
+      grid-gap: 1rem;
+      margin-bottom: 1rem;
+     }
+    
+     .project-titles{
+       font-weight: 700;
+       font-size: 1.4rem;
+       margin-bottom: 2rem;
+     }
+    
+     .project-content{
+        padding: 2rem 0;
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
         flex-direction: column;
+     }
+    
+     .project-description{
+        font-size: 1rem;
+      color: #666;
+      max-width: 40rem;
+      line-height: 1.7;
+      margin-bottom: 3rem;
     }
-
-    .project-container p{
-        text-align: center;
+    
+    .link-site{
+        background-color: #7843e9;
+        color: #fff;
+        padding: 1.5rem 5rem;
+        font-size: 1rem;
+    }
+    
+    .about-hero{
+        padding: 6rem 0px;
+    }
+    
+    .project{
+        padding: 4rem 0px;
     }
 }
 
-@media(min-width: 500px){
+@media(max-width: 500px){
     #bars{
         display: flex;
     }
