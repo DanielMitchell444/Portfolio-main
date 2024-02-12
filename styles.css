@@ -325,7 +325,7 @@ body{
    margin-bottom: 3rem;
  }
 
-@media(max-width: 500px){
+@media(min-width: 500px){
   .nav-links{
     display: none;
   }
@@ -389,7 +389,7 @@ body{
 
 }
 
-@media(max-width: 600px){
+@media(min-width: 600px){
     .project-container{
         display: grid;
         grid-template-columns: 1fr;
@@ -411,7 +411,7 @@ body{
     }
 }
 
-@media(max-width: 700px){
+@media(min-width: 700px){
     .project-container{
         display: grid;
         grid-template-columns: 1fr;
@@ -433,7 +433,7 @@ body{
     }
 }
 
-@media(max-width: 800px){
+@media(min-width: 800px){
     .project-container{
         display: grid;
         grid-template-columns: 1fr;
@@ -455,7 +455,7 @@ body{
     }
 }
 
-@media(max-width: 900px){
+@media(min-width: 900px){
     .project-container{
         display: grid;
         grid-template-columns: 1fr;
@@ -477,7 +477,7 @@ body{
     }
 }
 
-@media(max-width: 1000px){
+@media(min-width: 1000px){
     .project-container{
         display: grid;
         grid-template-columns: 1fr;
@@ -499,7 +499,7 @@ body{
     }
 }
 
-@media(max-width: 1100px){
+@media(min-width: 1100px){
     .project-container{
         display: grid;
         grid-template-columns: 1fr;
@@ -543,7 +543,7 @@ body{
     }
 }
 
-@media(max-width: 1300px){
+@media(min-width: 1300px){
     .project-container{
         display: grid;
         grid-template-columns: 1fr;
@@ -565,15 +565,6 @@ body{
     }
 }
 
-@media(min-width: 500px){
-    #bars{
-        display: flex;
-    }
-
-    .nav-links{
-        display: none;
-    }
-}
 
 @media(min-width: 1400px){
   
@@ -581,6 +572,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 5rem;
+    padding: 5rem 0rem;
  }
  .main-container{
     margin: auto;
@@ -673,5 +665,9 @@ body{
 
 .project{
     padding: 4rem 0px;
+}
+
+.details{
+    line-height: 2;
 }
  }
