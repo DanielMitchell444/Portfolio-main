@@ -131,7 +131,7 @@ body{
 
 .about_content{
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 
 .about-content-main{
@@ -797,6 +797,5 @@ body{
         width: 100%;
         object-fit: cover;
         background-color: #fff;
-        border-radius: 10px;
     }
  }
