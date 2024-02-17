@@ -96,6 +96,20 @@ body{
     display: none;
     
 }
+
+.nav.active {
+        right: 0;
+    }
+
+.mobile-menu-active{
+    display: block;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    background-color: white;
+    width: 100%;
+    top: 100px;
+}
 .open{
     display: flex;
     flex-direction: column;
