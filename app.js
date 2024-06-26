@@ -3,13 +3,14 @@ let navLinks = document.querySelector('.mobile-menu');
 
 
 function open(){
-  if(navLinks.style.display === "none"){
+  if(navLinks.style.display === "block"){
     navLinks.style.display = "none"
+  }
   
-  } else {
-   navLinks.style.display = "block";
-   navLinks.classList.add('mobile-menu-active');
- }
+  else {
+    navLinks.style.display = "block"
+    navLinks.classList.add("mobile-menu-active")
+  }
 }
 
 mobileMenu.addEventListener('click', open);
